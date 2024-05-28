@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.column {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addCardBtn {
+    margin-top: 10px;
+    align-self: flex-end;
+}
